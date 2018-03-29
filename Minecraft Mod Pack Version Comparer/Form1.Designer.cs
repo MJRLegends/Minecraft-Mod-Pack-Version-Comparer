@@ -126,6 +126,7 @@
             this.Controls.Add(this.txtOutput);
             this.Name = "Form1";
             this.Text = "Minecraft Mod Pack Version Comparer v1.0.0 - By MJRLegends";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

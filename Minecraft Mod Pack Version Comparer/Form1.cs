@@ -14,6 +14,11 @@ namespace Minecraft_MJRLegends_Version_Checker
             InitializeComponent();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void btnOLDFolder_Click(object sender, EventArgs e)
         {
             using (FolderBrowserDialog dlg = new FolderBrowserDialog())
@@ -81,9 +86,6 @@ namespace Minecraft_MJRLegends_Version_Checker
                     }
                 }
             }
-
-
-
         }
     }
 }
